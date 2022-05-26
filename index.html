@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Long Haul
+title: Kritisk Computer Oplysning
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
+  <h1 class="pageTitle">Indlæg</h1>
   <div class="posts noList">
     {%- for post in paginator.posts -%}
       <article>
@@ -17,7 +17,7 @@ title: Long Haul
   <!-- Pagination links -->
   <div class="pagination">
     {%- if paginator.previous_page -%}
-      <a href="{{ paginator.previous_page_path }}" class="previous button__outline">Newer Posts</a> 
+      <a href="{{ paginator.previous_page_path }}" class="previous button__outline">Newer Posts</a>
     {%- endif -%}
     {%- if paginator.next_page -%}
       <a href="{{ paginator.next_page_path }}" class="next button__outline">Older Posts</a>

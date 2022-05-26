@@ -1,5 +1,5 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Kritisk Computer Oplysning
+description: Fordi IT ikke er en forkortelse for idioti
 
 url: https://long-haul.netlify.app
 paginate_path: "blog/page:num/"
@@ -14,21 +14,21 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-  - title: Home
+  - title: Forside
     url: /index.html
-  - title: About
+  - title: Om
     url: /about
-  - title: Contact
+  - title: Kontakt
     url: /contact
 
-social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+#social:
+#  github: brianmaierjr
+#  twitter: brianmaierjr
+#  facebook: brianmaierjr
+#  email: brimaidesigns@gmail.com
+#  linkedin: brianmaierjr
 
-google_analytics: "UA-58263416-1"
+#google_analytics: "UA-58263416-1"
 
 disqus:
     shortname: brianmaierjr
